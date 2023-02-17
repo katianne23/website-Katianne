@@ -6,7 +6,7 @@ import About from './components/about/About.jsx';
 import Skills from './components/skills/Skills';
 import Services from './components/services/Services';
 import Qualification from './components/qualification/Qualification';
-
+import Certificate from './components/certificate/Certificate';
 
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
       <Skills />
       <Services />
       <Qualification />
+      <Certificate />
     </main>
     </>
   )
