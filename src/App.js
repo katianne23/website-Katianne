@@ -7,7 +7,7 @@ import Skills from './components/skills/Skills';
 import Services from './components/services/Services';
 import Qualification from './components/qualification/Qualification';
 import Certificate from './components/certificate/Certificate';
-
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
       <Services />
       <Qualification />
       <Certificate />
+      <Contact />
     </main>
     </>
   )
