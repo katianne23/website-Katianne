@@ -9,7 +9,7 @@ import Qualification from './components/qualification/Qualification';
 import Certificate from './components/certificate/Certificate';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
-
+import ScrollUp from './components/scrollup/ScrollUp.tsx';
 
 function App() {
   return (
@@ -24,8 +24,9 @@ function App() {
       <Qualification />
       <Certificate />
       <Contact />
-      <Footer />
     </main>
+    <Footer />
+    <ScrollUp />
     </>
   )
 }

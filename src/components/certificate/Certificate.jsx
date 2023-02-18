@@ -11,7 +11,7 @@ import { Pagination } from "swiper";
 
 const Certificate = () => {
   return (
-    <section className="certificate container section">
+    <section className="certificate container section" id="certificate">
         <h2 className="section__title">Certificados</h2>
         <span className="section__subtitle">Qualificações adquiridas</span>
 
