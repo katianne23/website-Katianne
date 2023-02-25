@@ -1,4 +1,5 @@
 import React from 'react';
+import { Translator } from '../i18n';
 
 const ScrollDown = () => {
   return (
@@ -39,7 +40,7 @@ const ScrollDown = () => {
                     }}
                 ></path>
             </svg>
-            <span className="home__scroll-name home__scroll-arrow">Rolar para baixo</span>
+            <span className="home__scroll-name home__scroll-arrow"><Translator path="home.scrollDown"/></span>
             <i className="uil uil-arrow-down"></i>
         </a>
     </div>

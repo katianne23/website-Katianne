@@ -3,14 +3,13 @@
 :root {
   --header-height: 3rem;
 
-  --hue: 0;
-  --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
 
+  --title-color: #121d31;
+  --title-color-dark: #000003;
+  --text-color: #124054;
+  --body-color: #fffbf4;
+  --container-color: #fff;
+  --scroll-header-color: #ffffff;
   --body-font: "Poppins", sans-serif;
 
  
@@ -156,6 +155,22 @@ img {
   align-items: center;
 }
 
+.button__language {
+  background-color: transparent;
+  margin-left: 5px;
+}
+.img__language {
+  cursor: pointer;
+}
+
+.button__language:hover {
+  filter: grayscale(0.5);
+}
+
+.button__language:active {
+  filter: grayscale(0.7);
+}
+
 
 @media screen and (max-width: 992px) {
   .container {
@@ -200,4 +215,14 @@ img {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
+}
+
+.app-light {
+  background-color: #fff;
+  color: #333;
+}
+
+.navbar-light {
+  background-color: #f0f0f0;
+  color: #333;
 }

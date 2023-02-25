@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./services.css";
+import { Translator } from '../i18n';
 
 const Services = () => {
     const [toggleState, setToggleState] = useState(0);
@@ -10,18 +11,24 @@ const Services = () => {
 
   return (
      <section className="services section" id="services">
-        <h2 className="section__title">Serviços</h2>
-        <span className="section__subtitle">O que eu ofereço</span>
+        <h2 className="section__title">
+            <Translator path="services.title"/>
+        </h2>
+        <span className="section__subtitle">
+            <Translator path="services.subtitle"/>
+        </span>
 
         <div className="services__container container grid">
             <div className="services__content">
                 <div>
                     <i className="uil uil-web-grid services__icon"></i>
-                    <h3 className="services__title">Designer <br /> Produtos</h3>
+                    <h3 className="services__title">
+                        <Translator path="services.services_title_one"/>
+                    </h3>
                 </div>
 
                 <span className="services__button" onClick={() => toggleTab(1)}>
-                    Veja Mais
+                    <Translator path="services.button"/>
                     <i className="uil uil-arrow-right services__button-icon"></i>
                 </span>
 
@@ -30,28 +37,33 @@ const Services = () => {
                         <i onClick={() => toggleTab(0)} className="uil 
                         uil-times services__modal-close"></i>
 
-                        <h3 className="services__modal-title">Designer Produtos</h3>
+                        <h3 className="services__modal-title">
+                            <Translator path="services.services_title_one"/>
+                        </h3>
                         <p className="services__modal-description">
-                            Tenho 2 anos de experiência adquirida durantes cursos,
-                            e projetos práticos na area de desenvolvimento web. 
-                            Ofereço serviços de excelente
-                            qualidade, garantindo a satisfação dos clientes. 
+                            <Translator path="services.modal_one"/>
                         </p>
 
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Desenvolvimento de Interface do Usuário</p>
+                                <p className="services__modal-info">
+                                    <Translator path="services.p_one"/>
+                                </p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Desenvolvimento de Paginas Webs</p>
+                                <p className="services__modal-info">
+                                    <Translator path="services.p_two"/>
+                                </p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Desenvolvimento de Design</p>
+                                <p className="services__modal-info">
+                                    <Translator path="services.p_three"/>
+                                </p>
                             </li>
                         </ul>
                     </div>
@@ -61,11 +73,13 @@ const Services = () => {
             <div className="services__content">
                 <div>
                     <i className="uil uil-arrow services__icon"></i>
-                    <h3 className="services__title">Designer <br/> Ui/Ux</h3>
+                    <h3 className="services__title">
+                        <Translator path="services.services_title_two"/>
+                    </h3>
                 </div>
                 <span onClick={() => toggleTab(2)}
                 className="services__button">
-                    Veja Mais 
+                    <Translator path="services.button"/>
                     <i className="uil uil-arrow-right services__button-icon"></i>
                 </span>
 
@@ -74,28 +88,33 @@ const Services = () => {
                         <i onClick={() => toggleTab(0)} className="uil 
                         uil-times services__modal-close"></i>
 
-                        <h3 className="services__modal-title">Designer Ui/Ux</h3>
+                        <h3 className="services__modal-title">
+                            <Translator path="services.services_title_two"/>
+                        </h3>
                         <p className="services__modal-description">
-                            Tenho 2 anos de experiência adquirida durantes cursos,
-                            e projetos práticos na area de desenvolvimento web. 
-                            Ofereço serviços de excelente
-                            qualidade, garantindo a satisfação dos clientes. 
+                            <Translator path="services.modal_one"/> 
                         </p>
 
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Desenvolvimento de Interface do Usuário</p>
+                                <p className="services__modal-info">
+                                    <Translator path="services.p_one"/>
+                                </p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Desenvolvimento de Paginas Webs</p>
+                                <p className="services__modal-info">
+                                    <Translator path="services.p_two"/>
+                                </p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Desenvolvimento de Design</p>
+                                <p className="services__modal-info">
+                                    <Translator path="services.p_three"/>
+                                </p>
                             </li>
                         </ul>
                     </div>
@@ -105,12 +124,14 @@ const Services = () => {
             <div className="services__content">
                 <div>
                     <i className="uil uil-edit services__icon"></i>
-                    <h3 className="services__title">Designer <br/> Visual</h3>
+                    <h3 className="services__title">
+                        <Translator path="services.services_title_three"/>
+                    </h3>
                 </div>
 
                 <span onClick={() => toggleTab(3)}
                 className="services__button">
-                    Veja Mais 
+                    <Translator path="services.button"/>
                     <i className="uil uil-arrow-right services__button-icon"></i>
                 </span>
 
@@ -119,26 +140,33 @@ const Services = () => {
                         <i onClick={() => toggleTab(0)} className="uil 
                         uil-times services__modal-close"></i>
 
-                        <h3 className="services__modal-title">Designer Visual</h3>
+                        <h3 className="services__modal-title">
+                            <Translator path="services.services_title_three"/>
+                        </h3>
                         <p className="services__modal-description">
-                            Tenho 2 anos de experiência adquirida durantes cursos,
-                            e projetos práticos.
+                            <Translator path="services.modal_one"/> 
                         </p>
 
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Desenvolvimento de Interface do Usuário</p>
+                                <p className="services__modal-info">
+                                    <Translator path="services.p_one"/>
+                                </p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Desenvolvimento de Paginas Webs</p>
+                                <p className="services__modal-info">
+                                    <Translator path="services.p_two"/>
+                                </p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Desenvolvimento de Design</p>
+                                <p className="services__modal-info">
+                                    <Translator path="services.p_three"/>
+                                </p>
                             </li>
                         </ul>
                     </div>

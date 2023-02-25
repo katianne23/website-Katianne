@@ -11,11 +11,15 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp.tsx';
 
+
+
 function App() {
   return (
     <>
+    <header>
     <Header />
-    
+    </header>
+ 
     <main className='main'>
       <Home />
       <About />

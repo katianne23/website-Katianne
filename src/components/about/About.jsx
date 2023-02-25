@@ -3,12 +3,13 @@ import "./about.css";
 import AboutImg from "../../assets/perfil.jpg";
 import CV from "../../assets/Katianne_cv.pdf";
 import Info from './Info';
+import { Translator } from '../i18n';
 
 const About = () => {
   return (
     <section className="about section" id="about">
-        <h2 className="section__title">Sobre mim</h2>
-        <span className="section__subtitle">Introdução</span>
+        <h2 className="section__title"><Translator path="about.title"/></h2>
+        <span className="section__subtitle"><Translator path="about.subtitle"/></span>
 
         <div className="about__container container grid">
             <img src={AboutImg} alt="Imagem de perfil Katianne" className="about__img" />
@@ -17,8 +18,7 @@ const About = () => {
                 <Info />
 
                 <p className="about__description">
-                    Desenvolvedora frontend, crio páginas web com interfaces de usuário
-                    tenho experiência na area através de cursos e projetos prático.
+                     <Translator path="about.text"/>
                 </p>
 
                 <a download="" href={CV} className="button button--flex">

@@ -1,8 +1,16 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import "./contact.css";
+import { Translator } from '../i18n';
+
+
+
 
 const Contact = () => {
+    // constructor(props); {
+    //     super(props);
+    //     this.state = { input_name : <Translator path='Contact.input_name'/> };
+    // }
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -19,12 +27,18 @@ const Contact = () => {
     };
     return (
         <section className="contact section" id="contact">
-            <h2 className="section__title">Entre em Contato</h2>
-            <span className="section__subtitle">Meus Contatos</span>
+            <h2 className="section__title">
+                <Translator path='Contact.title'/>
+            </h2>
+            <span className="section__subtitle">
+                <Translator path='Contact.subtitle'/>
+            </span>
 
             <div className="contact__container container grid">
                 <div className="contact__content">
-                    <h3 className="contact__title">Fale Comigo!</h3>
+                    <h3 className="contact__title">
+                        <Translator path='Contact.title_one'/>
+                    </h3>
 
                     <div className="contact__info">
                         <div className="contact__card">
@@ -33,8 +47,12 @@ const Contact = () => {
                             <h3 className="contact__card-title">Email</h3>
                             <span className="contact__card-data">katianne40@gmail.com</span>
 
-                            <a href="" className="contact__button">
-                                Escreva me
+                            <a 
+                                href="mailto:katianne40@gmail.com" 
+                                className="contact__button"
+                                target={'_blank'}
+                            >
+                                <Translator path='Contact.button_link'/>
                                 <i className="bx bx-right-arrow-alt
                             contact__button-icon"></i>
                             </a>
@@ -46,8 +64,12 @@ const Contact = () => {
                             <h3 className="contact__card-title">Whatsapp</h3>
                             <span className="contact__card-data">+55 88 98111-8927</span>
 
-                            <a href="" className="contact__button">
-                                Escreva me
+                            <a 
+                                href="https://api.whatsapp.com/send?phone=5588981118927" 
+                                className="contact__button"
+                                target={'_blank'}
+                            >
+                                <Translator path='Contact.button_link'/>
                                 <i className="bx bx-right-arrow-alt
                             contact__button-icon"></i>
                             </a>
@@ -59,8 +81,12 @@ const Contact = () => {
                             <h3 className="contact__card-title">Discord</h3>
                             <span className="contact__card-data">Katianne.Araujo#0118</span>
 
-                            <a href="" className="contact__button">
-                                Escreva me
+                            <a 
+                                href="https://discord.gg/jSpXMenR" 
+                                className="contact__button"
+                                target={'_blank'}
+                            >
+                                <Translator path='Contact.button_link'/>
                                 <i className="bx bx-right-arrow-alt
                             contact__button-icon"></i>
                             </a>
@@ -69,17 +95,21 @@ const Contact = () => {
                 </div>
 
                 <div className="contact__content">
-                    <h3 className="contact__title">Deixe sua Mensagem!</h3>
+                    <h3 className="contact__title">
+                        <Translator path='Contact.textarea'/>
+                    </h3>
 
                     <form ref={form} onSubmit={sendEmail}
                     className="contact__form">
                         <div className="contact__form-div">
-                            <label className="contact__form-tag">Nome</label>
+                            <label className="contact__form-tag">
+                                <Translator path='Contact.name'/>
+                            </label>
                             <input 
                                 type="text" 
                                 name="name"
                                 className="contact__form-input"
-                                placeholder="Insira seu nome" 
+                                // placeholder={<Translator path='Contact.input_name'/> }
                             />
                         </div>
 
@@ -89,7 +119,7 @@ const Contact = () => {
                                 type="email" 
                                 name="email"
                                 className="contact__form-input"
-                                placeholder="Insira seu email" 
+                                placeholder="Insert your email" 
                             />
                         </div>
 
@@ -105,7 +135,7 @@ const Contact = () => {
                     </div>
 
                     <button className="button button--flex">
-                        Enviar Mensagem
+                        <Translator path='Contact.button'/>
                         <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"

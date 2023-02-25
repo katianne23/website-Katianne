@@ -1,5 +1,6 @@
 import React from 'react';
 import "./footer.css";
+import { Translator } from '../i18n';
 
 const Footer = () => {
   return (
@@ -9,15 +10,21 @@ const Footer = () => {
 
             <ul className="footer__list">
                 <li>
-                    <a href="#about" className="footer__li">Sobre</a>
+                    <a href="#about" className="footer__link">
+                        <Translator path="navbar.detail_two" />
+                    </a>
                 </li>
 
                 <li>
-                    <a href="#services" className="footer__li">Serviços</a>
+                    <a href="#services" className="footer__link">
+                        <Translator path="navbar.detail_four" />
+                    </a>
                 </li>
 
                  <li>
-                    <a href="#certificate" className="footer__li"> Certificados</a>
+                    <a href="#qualification" className="footer__link">
+                        <Translator path="navbar.detail_seven" />
+                    </a>
                 </li>
             </ul>
 
@@ -48,7 +55,7 @@ const Footer = () => {
             </div>
 
             <span className="footer__copy">
-                &#169; Katianne Araújo. Todos os Direitos Reservados
+                &#169; Katianne Araújo. <Translator path="footer.text" />
             </span>
         </div>
     </footer>

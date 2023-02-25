@@ -1,141 +1,165 @@
+import { Translator } from '../i18n';
+
 export const Data = [
     {
         id: 1,
-        title: "Aplicações avançadas com Angular",
-        time: "6 Horas",
+        title: <Translator path='Certificates.title_one'/>,
+        time: "6",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 2,
-        title: "Acelerador de Carreira com Power BI",
-        time: "8 Horas",
+        title: <Translator path='Certificates.title_two'/>,
+        time: "8",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 3,
-        title: "Conceitos e melhores práticas com bancos de dados PostgreSQL",
-        time: "9 Horas",
+        title: <Translator path='Certificates.title_three'/>,
+        time: "9",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 4,
         title: "DIO Campus Expert._ Workshop",
-        time: "10 Horas",
+        time: "10",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 5,
-        title: "Desenvolvimento avançado com JavaScript ES6",
-        time: "5 Horas",
+        title: <Translator path='Certificates.title_five'/>,
+        time: "5",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 6,
-        title: "Desenvolvimento avançado em Java",
-        time: "8 Horas",
+        title: <Translator path='Certificates.title_six'/>,
+        time: "8",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 7,
-        title: "Estrutura de dados em Java",
-        time: "10 Horas",
+        title: <Translator path='Certificates.title_seven'/>,
+        time: "10",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 8,
-        title: "Excel Avançado",
-        time: "40 Horas",
+        title: <Translator path='Certificates.title_eight'/>,
+        time: "40",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 9,
-        title: "Hiring Coders #3 na Trilha de Formação em Full Stack",
-        time: "120 Horas",
+        title: <Translator path='Certificates.title_nine'/>,
+        time: "120",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 10,
-        title: "Hiring Coders #3 na Trilha de formação em VTEX IO, AWS, DevOps e Digital E-commerce.",
-        time: "35 Horas",
+        title: <Translator path='Certificates.title_ten'/>,
+        time: "35",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 11,
-        title: "Hiring Coders #3 na Trilha de formação em VTEX IO",
-        time: "20 Horas",
+        title: <Translator path='Certificates.title_eleven'/>,
+        time: "20",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 12,
         title: "Inter Frontend Developer",
-        time: "99 Horas",
+        time: "99",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 13,
-        title: "Implementando Collection e Streams com Java",
-        time: "6 Horas",
+        title: <Translator path='Certificates.title_thirteen'/>,
+        time: "6",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 14,
-        title: "Introdução a criação de websites com HTML5 e CSS3",
-        time: "6 Horas",
+        title: <Translator path='Certificates.title_fourteen'/>,
+        time: "6",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 15,
-        title: "Introdução ao Angular 8",
-        time: "5 Horas",
+        title: <Translator path='Certificates.title_fiveteen'/>,
+        time: "5",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 16,
         title: "Java Front/Back",
-        time: "33 Horas",
+        time: "33",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 17,
-        title: "Maratona do Zero ao Código- IV Edição",
-        time: "5 Horas",
+        title: <Translator path='Certificates.title_seventeen'/>,
+        time: "5",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 18,
-        title: "Maratona Invertida",
-        time: "5 Horas",
+        title: <Translator path='Certificates.title_eighteen'/>,
+        time: "5",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 19,
         title: "Órbi Web Games Developer",
-        time: "63 Horas",
+        time: "63",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 20,
-        title: "Semana Spring React",
-        time: "16 Horas",
+        title: <Translator path='Certificates.title_twenty'/>,
+        time: "16",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 21,
         title: "Santander Bootcamp | FullStack Developer",
-        time: "125 Horas",
+        time: "125",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 22,
         title: "Take Blip Web Developer",
-        time: "78 Horas",
+        time: "78",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
 
     {
         id: 23,
-        title: "Técnicas avançadas em Angular 8",
-        time: "8 Horas",
+        title: <Translator path='Certificates.title_twentythree'/>,
+        time: "8",
+        time_text: <Translator path='Certificates.time_one'/>,
     },
-
-    
+   
 ]

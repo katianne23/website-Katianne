@@ -1,5 +1,8 @@
 import React from 'react';
 
+
+import { Translator } from '../i18n';
+
 const Data = () => {
   return (
     <div className="home__data">
@@ -56,13 +59,14 @@ const Data = () => {
             </svg>
         </h1>
 
-        <h3 className="home__subtitle">Desenvolvedora Frontend</h3>
+        <h3 className="home__subtitle">
+          <Translator path="home.title" />
+        </h3>
         <p className="home__description">
-            Olá, sou desenvolvedora Frontend, Sou recém formada em Analise e Desenvolvimento de Sistemas. 
-            Tenho conhecimentos nas seguintes linguagens e frameworks: HTML5, CSS3, JavaScript, Reactjs, NodeJs
+          <Translator path="home.text" />    
         </p>
         <a href="#contact" className="button button--flex">
-            Fale Comigo!
+          <Translator path="home.button" />
             <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"

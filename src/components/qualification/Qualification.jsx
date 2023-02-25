@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import "./qualification.css";
+import { Translator } from '../i18n';
 
 const Qualification = () => {
     const [toggleState, setToggleState] = useState(1);
@@ -9,9 +10,13 @@ const Qualification = () => {
     };
 
   return (
-    <section className="qualification section">
-        <h2 className="section__title">Qualificações</h2>
-        <span className="section__subtitle">Minha Jornada Pessoal</span>
+    <section className="qualification section" id="qualification">
+        <h2 className="section__title">
+            <Translator path="qualification.title"/>
+        </h2>
+        <span className="section__subtitle">
+            <Translator path="qualification.subtitle"/>
+        </span>
 
         <div className="qualification__container container">
             <div className="qualification__tabs">
@@ -21,7 +26,7 @@ const Qualification = () => {
                 onClick={() => toggleTab(1)}
                 >
                     <i className="uil uil-graduation-cap qualification__icon"></i>
-                    Educação
+                    <Translator path="qualification.qualification_title_one"/>
                 </div>
 
                 <div className={toggleState === 2 ?
@@ -30,7 +35,7 @@ const Qualification = () => {
                 onClick={() => toggleTab(2)}
                 >
                     <i className="uil uil-briefcase-alt qualification__icon"></i>
-                    Experiências
+                    <Translator path="qualification.qualification_title_two"/>
                 </div>
             </div>
 
@@ -41,9 +46,12 @@ const Qualification = () => {
                     <div className="qualification__data">
                         
                         <div>
-                            <h3 className="qualification__title">Tecnico em Informática</h3>
-                            <span className="qualification__subtitle">Escola 
-                            Profissionalizante </span>
+                            <h3 className="qualification__title">
+                                <Translator path="qualification.qualification_subtitle_one"/>
+                            </h3>
+                            <span className="qualification__subtitle">
+                                <Translator path="qualification.qualification_subtitle_two"/> 
+                            </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
                                 2015 - 2017
@@ -66,8 +74,12 @@ const Qualification = () => {
                         </div>
 
                         <div>
-                            <h3 className="qualification__title">Analise e Desenvolvimento de Sistemas</h3>
-                            <span className="qualification__subtitle">Uniasselvi</span>
+                            <h3 className="qualification__title">
+                                <Translator path="qualification.qualification_subtitle_three"/>
+                            </h3>
+                            <span className="qualification__subtitle">
+                                Uniasselvi
+                            </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
                                 2020 - 2022
@@ -82,11 +94,16 @@ const Qualification = () => {
                     <div className="qualification__data">
                         
                         <div>
-                            <h3 className="qualification__title">Estagiario de TI</h3>
-                            <span className="qualification__subtitle">RC Informática</span>
+                            <h3 className="qualification__title">
+                                <Translator path="qualification.qualification_subtitle_four"/>
+                            </h3>
+                            <span className="qualification__subtitle">
+                                RC Informática
+                            </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                Ago 2017 - Dez 2017
+                                <Translator path="qualification.data_one"/> 2017 - 
+                                <Translator path="qualification.data_three"/> 2017
                             </div>
                         </div>
 
@@ -106,11 +123,16 @@ const Qualification = () => {
                         </div>
 
                         <div>
-                            <h3 className="qualification__title">Aluno</h3>
-                            <span className="qualification__subtitle">Hiring Coders</span>
+                            <h3 className="qualification__title">
+                                <Translator path="qualification.qualification_subtitle_five"/>
+                            </h3>
+                            <span className="qualification__subtitle">
+                                Hiring Coders
+                            </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                Maio 2022 - Ago 2022
+                                <Translator path="qualification.data_two"/> 2022 - 
+                                <Translator path="qualification.data_one"/> 2022
                             </div>
                         </div>
                     </div>
