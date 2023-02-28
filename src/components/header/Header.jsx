@@ -4,7 +4,20 @@ import I18n from '../i18n/I18n';
 import { Translator } from '../i18n';
 // import "./index";
 
-
+const dayNight = document.querySelector(".day-night");
+         dayNight.addEventListener("click", () => {
+         dayNight.querySelector("i").classList.toggle("bxs-sun");
+         dayNight.querySelector("i").classList.toggle("bxs-moon");
+         document.body.classList.toggle("dark");
+     })
+     
+     window.addEventListener("load", () => {
+         if(document.body.classList.contains("dark")){
+             dayNight.querySelector("i").classList.add("bxs-sun");
+         } else {
+             dayNight.querySelector("i").classList.add("bxs-moon");
+         }
+     })
 const Header = () => {  
     window.addEventListener("scroll", function () {
         const header = document.querySelector(".header");
@@ -13,21 +26,6 @@ const Header = () => {
         else header.classList.remove("scroll-header");
     })
     
-    window.addEventListener("click", () => {
-        const dayNight = document.querySelector(".day-night");
-         dayNight.querySelector("i").classList.toggle("bxs-sun");
-         dayNight.querySelector("i").classList.toggle("bxs-moon");
-         document.body.classList.toggle("dark");
-     })
-     window.addEventListener("load", () => {
-        const dayNight = document.querySelector(".day-night");
-         if(document.body.classList.contains("dark")){
-             dayNight.querySelector("i").classList.add("bxs-sun");
-         } else {
-             dayNight.querySelector("i").classList.add("bxs-moon");
-         }
-     })
-   
     const [Toggle, showMenu] = useState(false);
     const [activeNav, setActiveNav] = useState("#home");
 
