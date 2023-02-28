@@ -13,24 +13,27 @@ import ScrollUp from './components/scrollup/ScrollUp.tsx';
 
 
 
+
 function App() {
+
   return (
     <>
-    <header>
-    <Header />
-    </header>
- 
-    <main className='main'>
-      <Home />
-      <About />
-      <Skills />
-      <Services />
-      <Qualification />
-      <Certificate />
-      <Contact />
-    </main>
-    <Footer />
-    <ScrollUp />
+      <header>
+        <Header />  
+      </header>
+
+      <main className='main'>
+        <Home />
+        <About />
+        <Skills />
+        <Services />
+        <Qualification />
+        <Certificate />
+        <Contact />
+      </main>
+      <Footer />
+      <ScrollUp />
+      
     </>
   )
 }

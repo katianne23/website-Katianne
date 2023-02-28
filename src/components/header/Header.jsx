@@ -2,18 +2,35 @@ import React, { useState } from 'react';
 import "./header.css";
 import I18n from '../i18n/I18n';
 import { Translator } from '../i18n';
+// import "./index";
 
 
-const Header = () => {
+const Header = () => {  
     window.addEventListener("scroll", function () {
         const header = document.querySelector(".header");
         if (this.scrollY >= 80) header.classList.add
             ("scroll-header");
         else header.classList.remove("scroll-header");
     })
-
+    
+    window.addEventListener("click", () => {
+        const dayNight = document.querySelector(".day-night");
+         dayNight.querySelector("i").classList.toggle("bxs-sun");
+         dayNight.querySelector("i").classList.toggle("bxs-moon");
+         document.body.classList.toggle("dark");
+     })
+     window.addEventListener("load", () => {
+        const dayNight = document.querySelector(".day-night");
+         if(document.body.classList.contains("dark")){
+             dayNight.querySelector("i").classList.add("bxs-sun");
+         } else {
+             dayNight.querySelector("i").classList.add("bxs-moon");
+         }
+     })
+   
     const [Toggle, showMenu] = useState(false);
     const [activeNav, setActiveNav] = useState("#home");
+
     return (
         <header className='header'>
             <nav className='nav container'>
@@ -106,6 +123,13 @@ const Header = () => {
                         <li className="nav__item">
                             <I18n className="nav__link" />
                         </li>
+
+                        <li className="nav__item">
+                            <div class="day-night">
+                                <i class='bx bxs-sun icon__theme'></i>
+                            </div>
+                        </li>
+
                     </ul>
 
                     <i className="uil uil-times nav__close" onClick={() => showMenu

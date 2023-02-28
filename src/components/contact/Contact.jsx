@@ -109,28 +109,32 @@ const Contact = () => {
                                 type="text" 
                                 name="name"
                                 className="contact__form-input"
-                                // placeholder={<Translator path='Contact.input_name'/> }
+                                placeholder="Your Name"
                             />
                         </div>
 
                         <div className="contact__form-div">
-                            <label className="contact__form-tag">Email</label>
+                            <label className="contact__form-tag">
+                                Email
+                            </label>
                             <input 
                                 type="email" 
                                 name="email"
                                 className="contact__form-input"
-                                placeholder="Insert your email" 
+                                placeholder="exemplo@email.com" 
                             />
                         </div>
 
                         <div className="contact__form-div contact__form-area">
-                        <label className="contact__form-tag">Mensagem</label>
+                        <label className="contact__form-tag">
+                            <Translator path='Contact.textarea'/>
+                        </label>
                         <textarea 
                             name="message" 
                             cols="30" 
                             rows="10"
                             className="contact__form-input" 
-                            placeholder="Escreva sua mensagem"
+                            placeholder="Your Message"
                         ></textarea>
                     </div>
 

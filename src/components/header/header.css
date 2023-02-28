@@ -51,6 +51,13 @@
     box-shadow: 0 -1px 4px;
     background-color: var(--scroll-header-color);
 }
+
+
+.icon__theme {
+    cursor: pointer;
+    font-size: 22px;
+}
+  
 @media screen and (max-width: 768px) {
     .header {
         top: initial;
