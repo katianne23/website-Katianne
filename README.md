@@ -14,6 +14,7 @@
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [i18next](https://www.i18next.com/)
 - [emailJS](https://www.emailjs.com/)
+- [Swiper](https://swiperjs.com/react)
 
 
 
@@ -23,6 +24,7 @@
 - Criação de variaveis no CSS para utilizar nas cores e tamanhos
 - Adição de imagens e icones
 - Criação dos componentes 
+- Utilização do Swiper para a paginação dos certificados
 - Instalando o emailJS para receber dados do formulário
 - Instalação do i18n para realizar tradução do site
 - Criação dos arquivos de Tradução
