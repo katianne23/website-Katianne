@@ -12,7 +12,7 @@ export default {
 
         home : {
             title : "Desenvolvedora Frontend",
-            text : "Olá, sou desenvolvedora Frontend, Sou recém formada em Analise e Desenvolvimento de Sistemas. Tenho conhecimentos nas seguintes linguagens e frameworks: HTML5, CSS3, JavaScript, Reactjs, NodeJs",
+            text : "Olá, sou desenvolvedora Frontend. Sou formada em Analise e Desenvolvimento de Sistemas, tenho formação de nível técnico em Informática, e atualmente realizo trabalhos como freelancer, criando landing pages, e sistemas webs. Tenho conhecimentos nas seguintes linguagens, frameworks e bibliotecas: HTML5, CSS3, JavaScript, Reactjs, NodeJs, VueJs, NextJs, Tailwind",
             button : "Fale comigo!",
             scrollDown : "Rolar para baixo",
         },
@@ -20,12 +20,12 @@ export default {
         about : {
             title : "Sobre mim",
             subtitle : "Introdução",
-            text : "Desenvolvedora frontend, crio páginas web com interfaces de usuário, tenho experiência na área através de cursos e projetos prático.",
+            text : "Desenvolvedora frontend, crio páginas e sistemas web com interfaces de usuário, tenho experiência na área através de cursos e trabalho freelancer criando sistemas web e Landing pages",
         },
 
         info : {
             title_one : "Experiências",
-            subtitle_one : "2 anos de estudos",
+            subtitle_one : "4 anos",
             title_two : "Concluído",
             subtitle_two : "50+ projetos",
             title_three : "Aprendizados",
@@ -49,7 +49,7 @@ export default {
             services_title_three :"Designer Visual",
             services_title_two : "Designer Ui/Ux",
             button: "Veja Mais",
-            modal_one : "Tenho 2 anos de experiência adquirida durantes cursos e projetos práticos.",
+            modal_one : "Tenho 3 anos de experiência trabalhando em criação de Landing Pages e Sistemas web.",
             p_one: "Desenvolvimento de Interface do Usuário",
             p_two: "Desenvolvimento de Paginas Webs",
             p_three: "Desenvolvimento de Design",
@@ -65,9 +65,11 @@ export default {
             qualification_subtitle_three : "Analise e Desenvolvimento de Sistemas",
             qualification_subtitle_four : "Estagiário de TI",
             qualification_subtitle_five : "Aluno",
+            qualification_subtitle_six: "Desenvolvedor Frontend",
             data_one: "Ago",
             data_two: "Maio",
             data_three : "Dez",
+            data_four: "Jul"
         },
 
         Certificates : {

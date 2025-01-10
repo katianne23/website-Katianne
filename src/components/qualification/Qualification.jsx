@@ -92,7 +92,6 @@ const Qualification = () => {
                 "qualification__content qualification__content-active" :
                 "qualification__content"}>
                     <div className="qualification__data">
-                        
                         <div>
                             <h3 className="qualification__title">
                                 <Translator path="qualification.qualification_subtitle_four"/>
@@ -135,6 +134,28 @@ const Qualification = () => {
                                 <Translator path="qualification.data_one"/> 2022
                             </div>
                         </div>
+                    </div>
+
+                    <div className="qualification__data">
+                        <div>
+                            <h3 className="qualification__title">
+                                <Translator path="qualification.qualification_subtitle_six"/>
+                            </h3>
+                            <span className="qualification__subtitle">
+                                Freelancer
+                            </span>
+                            <div className="qualification__calender">
+                                <i className="uil uil-calendar-alt"></i>
+                                <Translator path="qualification.data_four"/> 2023 - 
+                                <Translator path="qualification.data_three"/> 
+                            </div>
+                        </div>
+
+                        <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
