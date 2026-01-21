@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
-import AboutImg from "../../assets/foto.png";
-import CV from "../../assets/Katianne Araújo-Curriculo.pdf";
+import AboutImg from "../../assets/perfil.png";
+import CV from "../../assets/Katiannearaújo - curriculo.pdf";
 import Info from './Info';
 import { Translator } from '../i18n';
 

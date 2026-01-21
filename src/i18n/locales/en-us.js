@@ -12,7 +12,7 @@ export default {
 
         home: {
             title: "Frontend Developer",
-            text: "Hi, I'm a Frontend developer. I have a degree in Systems Analysis and Development, a technical degree in Computer Science, and I currently work as a freelancer, creating landing pages and web systems. I have knowledge of the following languages, frameworks and libraries: HTML5, CSS3, JavaScript, ReactJs, NodeJs, VueJs, NextJs, Tailwind",
+            text: "Hello! I'm Katianne Araújo, a Front-End Developer who loves creating clean, responsive, and easy-to-use interfaces. I work in web development, creating landing pages and web applications as a freelancer and in remote teams. I am currently a collaborator at Ovonne as a Front-End Developer and Technical Leader, contributing to project organization, team guidance, and the application of best practices. I have a degree in Systems Analysis and Development and technical training in Computer Science. I am proactive, constantly learning, and enjoy challenges that allow me to evolve and deliver quality digital solutions. 🚀",
             button: "Talk to me!",
             scrollDown: "Roll down",
         },
@@ -20,12 +20,12 @@ export default {
         about: {
             title: "About me",
             subtitle: "Introduction",
-            text: "Frontend developer, I create web pages with user interfaces I have experience in the area through courses and practical projects.",
+            text: "I have a degree in Systems Analysis and Development and a technical degree in Computer Science, which gave me a solid foundation in technology from an early age. Throughout my career, I have worked on projects in various areas, such as healthcare, law, education, sales, and services, always seeking to deliver responsive, accessible, and well-structured solutions. Technologies I use: Frontend: HTML5, CSS3, JavaScript, TypeScript, React.js, Next.js, Vue.js Backend & Integrations: Node.js, Prisma, Firebase, REST APIs Tools: Git, GitHub, GitLab, Figma, Stripe, Docker Others: Microservices, Microfrontend, Code Versioning My differential lies in my proactivity and constant willingness to learn. I don't limit myself to what I already know: when a new challenge arises, I seek to learn, apply, and evolve to always deliver the best possible result. I enjoy working in a team, have good communication skills, a sense of responsibility, and am organized with tasks and deadlines. I believe that technology, when applied well, can create incredible experiences and solutions that really make a difference. If you would like to learn about my projects or collaborate on something new, I would be happy to talk!",
         },
 
         info: {
             title_one: "Experiences",
-            subtitle_one: "4 years of studes",
+            subtitle_one: "4 years",
             title_two: "Concluded",
             subtitle_two: "50+ projects",
             title_three: "Learnings",
@@ -45,14 +45,28 @@ export default {
         services: {
             title: "Services",
             subtitle: "What I Offer",
-            services_title_one: "Designer Products",
+            services_title_one: "Technical Leadership & Optimization",
             services_title_three: "Visual Designer",
-            services_title_two: " UI/UX Designer",
+            services_title_two: " Web Systems & Integrations",
             button: "See more",
-            modal_one: "I have 3 years' experience in creating Landing Pages and Web Systems.",
-            p_one: "User Interface Development",
-            p_two: "Development of Web Pages",
-            p_three: "Design Development",
+            modal_one: "Creation of web interfaces focused on performance, accessibility, and user experience, following best practices and Figma layouts.",
+            p_one: "Landing pages and institutional websites",
+            p_two: "Responsive interfaces (mobile first)",
+            p_three: "Modern web applications",
+            p_four: "Clean and scalable code",
+            p_five: "Technologies: HTML, CSS, JavaScript, TypeScript, React, Next.js, Vue.js",
+            modal_two: "Development and integration of web systems with APIs, authentication, payments, and databases, ensuring stability and security.",
+            p_two_one: "Integration with REST APIs",
+            p_two_two: "Authentication and user management",
+            p_two_three: "Payments (Stripe)",
+            p_two_four: "Integration with Firebase and Prisma",
+            p_two_five: "Tecnologias: Node.js, Prisma, Firebase, REST APIs, Stripe",
+            modal_three: "Technical support for teams and projects, focusing on best practices, code organization, and continuous improvement.",
+            p_three_one: "Task organization and development workflow",
+            p_three_two: "Code review and standardization",
+            p_three_three: "Performance and accessibility optimization",
+            p_three_four: "Mentoring and technical support for the team",
+            p_three_five: "Differentials: Best practices, accessibility, versioning with Git, collaborative work.",
         },
 
         qualification: {

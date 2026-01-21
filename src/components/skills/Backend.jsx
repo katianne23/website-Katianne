@@ -28,7 +28,7 @@ const Backend = () => {
                     <div>
                         <h3 className="skills__name">NodeJs</h3>
                         <span className="skills__level">
-                            <Translator path="skills.basic"/>
+                            <Translator path="skills.inter"/>
                         </span>
                     </div>
                 </div>

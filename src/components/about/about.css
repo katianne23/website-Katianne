@@ -69,6 +69,7 @@
     .about__description {
         padding: 0 5rem;
         margin-right: 2rem;
+        text-align: justify;
     }
   }
   
