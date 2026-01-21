@@ -1,4 +1,4 @@
-export default {
+const enUs = {
     translations: {
         navbar: {
             detail_one: "Home",
@@ -127,3 +127,5 @@ export default {
         }
     }
 }
+
+export default enUs;

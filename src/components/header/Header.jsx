@@ -77,7 +77,7 @@ const Header = () => {
     return (
         <header className='header'>
             <nav className='nav container'>
-                <a href="index.html" className='nav__logo'>Katianne</a>
+                <a href="index.html" className='nav__logo' rel="noopener noreferrer">Katianne</a>
 
                 <div className={Toggle ? "nav__menu show-menu" :
                     "nav__menu"}>
@@ -91,6 +91,7 @@ const Header = () => {
                                     activeNav === "#home" ? "nav__link active-link"
                                         : "nav__link"
                                 }
+                                rel="noopener noreferrer"
                             >
                                 <i className="uil uil-estate nav__icon"></i>
                                 <Translator path="navbar.detail_one" />
@@ -105,6 +106,7 @@ const Header = () => {
                                     activeNav === "#about" ? "nav__link active-link"
                                         : "nav__link"
                                 }
+                                rel="noopener noreferrer"
                             >
                                 <i className="uil uil-user nav__icon"></i>
                                     <Translator path="navbar.detail_two" />
@@ -118,7 +120,9 @@ const Header = () => {
                                 className={
                                     activeNav === "#skills" ? "nav__link active-link"
                                         : "nav__link"
-                                }>
+                                }
+                                rel="noopener noreferrer"
+                                >
                                 <i className="uil uil-file-alt nav__icon"></i>
                                 <Translator path="navbar.detail_three" />
                             </a>
@@ -131,6 +135,7 @@ const Header = () => {
                                     activeNav === "#services" ? "nav__link active-link"
                                         : "nav__link"
                                 }
+                                rel="noopener noreferrer"
                             >
                                 <i className="uil uil-scenery nav__icon"></i>
                                     <Translator path="navbar.detail_four" />
@@ -144,6 +149,7 @@ const Header = () => {
                                     activeNav === "#certificate" ? "nav__link active-link"
                                         : "nav__link"
                                 }
+                                rel="noopener noreferrer"
                             >
                                 <i className="uil uil-brain nav__icon"></i>
                                 <Translator path="navbar.detail_five" />
@@ -157,6 +163,7 @@ const Header = () => {
                                     activeNav === "#contact" ? "nav__link active-link"
                                         : "nav__link"
                                 }
+                                rel="noopener noreferrer"
                             >
                                 <i className="uil uil-message nav__icon"></i>
                                 <Translator path="navbar.detail_six" />

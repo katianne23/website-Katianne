@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./contact.css";
 import { Translator } from '../i18n';
@@ -51,6 +51,7 @@ const Contact = () => {
                                 href="mailto:katianne40@gmail.com" 
                                 className="contact__button"
                                 target={'_blank'}
+                                rel="noopener noreferrer"
                             >
                                 <Translator path='Contact.button_link'/>
                                 <i className="bx bx-right-arrow-alt
@@ -68,6 +69,7 @@ const Contact = () => {
                                 href="https://api.whatsapp.com/send?phone=5588981118927" 
                                 className="contact__button"
                                 target={'_blank'}
+                                rel="noopener noreferrer"
                             >
                                 <Translator path='Contact.button_link'/>
                                 <i className="bx bx-right-arrow-alt
@@ -85,6 +87,7 @@ const Contact = () => {
                                 href="https://discord.gg/jSpXMenR" 
                                 className="contact__button"
                                 target={'_blank'}
+                                rel="noopener noreferrer"
                             >
                                 <Translator path='Contact.button_link'/>
                                 <i className="bx bx-right-arrow-alt

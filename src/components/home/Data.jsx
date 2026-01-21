@@ -65,7 +65,7 @@ const Data = () => {
         <p className="home__description">
           <Translator path="home.text" />    
         </p>
-        <a href="#contact" className="button button--flex">
+        <a href="#contact" className="button button--flex" rel="noopener noreferrer">
           <Translator path="home.button" />
             <svg
                   class="button__icon"

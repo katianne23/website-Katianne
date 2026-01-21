@@ -10,19 +10,19 @@ const Footer = () => {
 
             <ul className="footer__list">
                 <li>
-                    <a href="#about" className="footer__link">
+                    <a href="#about" className="footer__link" rel="noopener noreferrer">
                         <Translator path="navbar.detail_two" />
                     </a>
                 </li>
 
                 <li>
-                    <a href="#services" className="footer__link">
+                    <a href="#services" className="footer__link" rel="noopener noreferrer">
                         <Translator path="navbar.detail_four" />
                     </a>
                 </li>
 
                  <li>
-                    <a href="#qualification" className="footer__link">
+                    <a href="#qualification" className="footer__link" rel="noopener noreferrer">
                         <Translator path="navbar.detail_seven" />
                     </a>
                 </li>
@@ -33,6 +33,7 @@ const Footer = () => {
                     href="https://www.instagram.com/katianne.araujo/" 
                     className="footer__social-link" 
                     target={'_blank'}
+                    rel="noopener noreferrer"
                 >
                     <i className='bx bxl-instagram'></i>
                 </a>
@@ -41,6 +42,7 @@ const Footer = () => {
                     href="https://www.linkedin.com/in/katiannearaujo/"
                     className="footer__social-link" 
                     target={'_blank'}
+                    rel="noopener noreferrer"
                 >
                     <i className='bx bxl-linkedin'></i>
                 </a>
@@ -49,6 +51,7 @@ const Footer = () => {
                     href="https://github.com/katianne23" 
                     className="footer__social-link" 
                     target={'_blank'}
+                    rel="noopener noreferrer"
                 >
                     <i className='bx bxl-github'></i>
                 </a>

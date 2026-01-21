@@ -1,4 +1,4 @@
-export default {
+const ptBr = {
     translations: {
         navbar: {
             detail_one: "Principal",
@@ -129,3 +129,5 @@ export default {
         }
     }
 }
+
+export default ptBr;

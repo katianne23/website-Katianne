@@ -21,7 +21,7 @@ const About = () => {
                      <Translator path="about.text"/>
                 </p>
 
-                <a download="" href={CV} className="button button--flex">
+                <a download="" href={CV} className="button button--flex" rel="noopener noreferrer">
                     Download CV
                     <svg
                         class="button__icon"
