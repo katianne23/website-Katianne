@@ -4,13 +4,7 @@ import I18n from '../i18n/I18n';
 import { Translator } from '../i18n';
 
 
-
-
-
-
-
-
-const Header = () => {   
+export const Header = () => {   
     // window.addEventListener("scroll", function () {
     //     const header = document.querySelector(".header");
     //     if (this.scrollY >= 80) header.className.add
@@ -195,5 +189,3 @@ const Header = () => {
     )
 
 }
-
-export default Header;

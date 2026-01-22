@@ -4,7 +4,7 @@ import Social from './Social';
 import Data from './Data';
 import ScrollDown from './ScrollDown';
 
-const Home = () => {
+export const Home = () => {
   return (
     <section className="home section" id="home">
         <div className="home__container container grid">
@@ -22,4 +22,3 @@ const Home = () => {
   )
 }
 
-export default Home;
